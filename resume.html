@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SATYA SAI RESUME</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">RESUME</div>
+    </header>
+    <div class="main-container">
+      <div class="information">
+        <h2>Personal Details</h2>
+        <div>
+          <p><strong>Name : </strong>TAMANARA SATYA SAI</p>
+          <p><strong>Email : </strong>tamanarasatyasai@gmail.com</p>
+          <p><strong>Phone : </strong>632610126</p>
+        </div>
+      </div>
+      <div class="information">
+        <h2>Education</h2>
+        <div>
+          <ul>
+            <p>
+              &cir; Pursuing my Post Graduation Course ib Master of Computer
+              Applications at ADIKAVI NANNAYA UNIVERSITY Rajahmendry.
+            </p>
+            <p>
+              &cir; Completed my Graduation in Stream of BSC Computers Science
+              at SV JUNIOR AND DEGREE COLLEGE with the aggregation of 85% ,TUNI
+              ,2024.
+            </p>
+            <p>
+              &cir; Completed My Intermediate in MPC at SV JUNIOR AND DEGREE
+              COLLEGE with the aggregate of 90% , TUNI ,2021.
+            </p>
+            <p>
+              &cir; Completed my SCC at ZP High School with the aggregation of
+              92% ,BH kota ,2019.
+            </p>
+          </ul>
+        </div>
+      </div>
+      <div class="information">
+        <h2>Technical Skills</h2>
+        <div>
+          <span><button>HTML</button></span>
+          <span><button>CSS</button></span>
+          <span><button>JavaScript</button></span>
+          <span><button>React</button></span>
+          <span><button>Python</button></span>
+        </div>
+      </div>
+      <div class="information">
+        <h2>Certifications and Courses</h2>
+        <div>
+          <p>
+            &cir; Completed<strong>"C-Programming Course"</strong> from
+            <strong>Infosys Springboard.</strong>
+          </p>
+          <p>
+            &cir; Completed<strong
+              >"The Complete Web Development Course"</strong
+            >
+            Developed by<strong>Infosys Springboard.</strong>
+          </p>
+          <p>
+            &cir; Completed the internship program on
+            <strong>"DATA SCIENCE"</strong> under the guidance of HMI
+            technologies
+          </p>
+        </div>
+      </div>
+      <div class="information">
+        <h2>Personal information</h2>
+        <div>
+          <p><strong>Father's Name : </strong>SRINIVASU TAMANARA</p>
+          <p><strong>Gender : </strong>Male</p>
+          <p><strong>DOB : </strong>19/03/2003</p>
+          <p><strong>Nationality : </strong>Indian</p>
+          <p><strong>Languages Known : </strong>Telugu,English,Hindi</p>
+          <p>
+            <strong>Location : </strong>Surapuraju Peta,Kakinada
+            Discrit,533407,Andhra Pradesh
+          </p>
+        </div>
+      </div>
+      <div class="information">
+        <button id="showdetails">Show More Details</button>
+      </div>
+      <div class="additionalDetails" id="showInform">
+        <div class="information">
+          <h2>Hobbies</h2>
+          <div>
+            <p><strong>&cir; Playing Cricket </strong></p>
+            <p>
+              <strong>&cir; Listening to Podcasts and Watching Youtube</strong>
+            </p>
+            <p><strong>&cir; Upgrading with booming technologies</strong></p>
+          </div>
+        </div>
+        <div class="information">
+          <h2>Achievements</h2>
+          <div>
+            <p>
+              <strong
+                >&cir; Actively Participated in Group Discussion Conducted by
+                our college
+              </strong>
+            </p>
+            <p>
+              <strong
+                >&cir; Participated in community Survey Project Conducted by
+                Adikavi Nannay University</strong
+              >
+            </p>
+            <p><strong>&cir; Volunteer of NSS camp in our college</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; TAMANARA SATYA SAI</p>
+      <p>&phone; Ph: 6302610126</p>
+      <p>Email: tamanarasatyasai@gmail.com</p>
+      <div class="footer-ser">
+        <a href="https://www.facebook.com/satyasai.tamanara" target="_blank"
+          ><img src="images/facebook.png" alt="facebook" class="footer-ser1"
+        /></a>
+        <a href="https://www.instagram.com/uniqueboy__sai/" target="_blank"
+          ><img src="images/instagram1.jpg" alt="instagram" class="footer-ser1"
+        /></a>
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><img src="images/whatsapp.jpg" alt="whatsapp" class="footer-ser1"
+        /></a>
+      </div>
+    </footer>
+    <script>
+      const showDetails = document.getElementById("showdetails");
+      showDetails.addEventListener("click", function () {
+        let element = document.getElementById("showdetails").innerHTML;
+        if (element == "Hide Details") {
+          let showelement = document
+            .getElementById("showInform")
+            .classList.remove("showdetails");
+
+          document.getElementById(
+            "showdetails"
+          ).innerHTML = `Show More Details`;
+        } else {
+          let showelement = document
+            .getElementById("showInform")
+            .classList.add("showdetails");
+
+          document.getElementById("showdetails").innerHTML = `Hide Details`;
+        }
+      });
+    </script>
+  </body>
+</html>
